@@ -2,7 +2,6 @@
 title: "Heart Rate Recovery Analysis via Smartphone PPG Signal"
 excerpt: "Investigating whether Heart Rate Recovery measured via smartphone PPG can distinguish cardiac autonomic response between trained and untrained subjects after a standardised anaerobic exercise protocol."
 collection: portfolio
-date: 2026-01-15
 ---
 
 ## Overview
