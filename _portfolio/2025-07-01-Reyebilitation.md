@@ -28,4 +28,4 @@ Developed as part of the *Soluzioni di Grafica 3D in applicazioni biometriche* c
 * **Collaborative Team:** S. Maffei, G. Martucci, V. Tarditi, Matteo Giovanni Traverso, A. Villani
 
 ## Download
-📄 [Download full report](/files/reyebilitation-report.pdf)
+📄 [Download full report](/files/Reyebilitation – Eye-Tracking Telerehabilitation Platform for Children.pdf)
