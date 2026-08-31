@@ -304,13 +304,14 @@ timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
+remote_theme : "academicpages/academicpages.github.io"
 plugins:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
+  - jekyll-gist
+  - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # Mimic GitHub Pages with --safe
 whitelist:
