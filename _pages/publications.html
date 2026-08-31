@@ -5,12 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
+<div style="background-color: #ffd700; padding: 20px; border-radius: 5px;">
+  <h2>⚠️ Test di Debug ⚠️</h2>
+  <p>Numero di file rilevati nella cartella: <strong>{{ site.publications | size }}</strong></p>
+</div>
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  <div style="border: 2px solid #0056b3; padding: 15px; margin: 10px 0;">
+    <h3>{{ post.title }}</h3>
+    <p>Data rilevata: {{ post.date }}</p>
+    <p>Permalink: {{ post.permalink }}</p>
+  </div>
 {% endfor %}
