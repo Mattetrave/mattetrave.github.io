@@ -13,7 +13,7 @@ citation: "Montagnani, Eleonora, Traverso, Matteo Giovanni, et al. (2026). Beyon
 
 ### Overview
 
-This research focuses on the validation of a multimodal technological framework designed to assess pediatric visuospatial attention, aiming to overcome the limitations of the traditional paper-based Modified Bells Test. The study was conducted during my time as a Guest Student at the **Istituto Italiano di Tecnologia (IIT)** in Genoa, within the Unit for Visually Impaired People (U-VIP), and formed the core of my Master's thesis research.
+This research focuses on the validation of a multimodal technological framework designed to assess pediatric visuospatial attention, aiming to overcome the limitations of the **traditional paper-based Modified Bells Test**. The study was conducted during my time as a Guest Student at the Istituto Italiano di Tecnologia (IIT) in Genoa, within the Unit for Visually Impaired People (U-VIP), and formed the core of my Master's thesis research.
 
 ### Methodology and Technical Scope
 
