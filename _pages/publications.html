@@ -5,15 +5,34 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div style="background-color: #ffd700; padding: 20px; border-radius: 5px;">
-  <h2>⚠️ Test di Debug ⚠️</h2>
-  <p>Numero di file rilevati nella cartella: <strong>{{ site.publications | size }}</strong></p>
-</div>
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-{% for post in site.publications reversed %}
-  <div style="border: 2px solid #0056b3; padding: 15px; margin: 10px 0;">
-    <h3>{{ post.title }}</h3>
-    <p>Data rilevata: {{ post.date }}</p>
-    <p>Permalink: {{ post.permalink }}</p>
-  </div>
-{% endfor %}
+{% include base_path %}
+
+<div class="entries-list">
+  {% for post in site.publications reversed %}
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        
+        <h2 class="archive__item-title" itemprop="headline">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        
+        {% if post.venue %}
+          <p><strong>{{ post.venue }}</strong> ({{ post.date | date: "%Y" }})</p>
+        {% endif %}
+
+        {% if post.excerpt %}
+          <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
+        {% endif %}
+        
+        {% if post.citation %}
+          <p style="font-size: 0.85em;"><i>Recommended citation:</i> {{ post.citation }}</p>
+        {% endif %}
+
+      </article>
+    </div>
+  {% endfor %}
+</div>
