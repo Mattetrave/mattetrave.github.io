@@ -92,3 +92,4 @@ Alpine skiing and weight training, with particular attention to biomechanics and
 ---
 
 ## Download
+📄 [Download full report](/files/cv_Matteo_Giovanni_Traverso.pdf)
