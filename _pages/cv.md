@@ -9,12 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Profile
-======
+## Profile
 M.Sc. graduate in Biomedical Engineering specialized in Biomedical Instrumentation, experienced in the development of visuo-cognitive assessment frameworks using research-grade eye-tracking systems. Driven by deep curiosity and a commitment to continuous learning, I am highly motivated to join an R&D team or collaborate with clinical institutions (including radiotherapy systems) to drive innovation in active medical devices.
 
-Education
-======
+---
+
+## Education
 **Master's Degree in Biomedical Engineering** — Politecnico di Torino, Turin (2023 – 2026)
 
 Specialization: Biomedical Instrumentation
@@ -31,8 +31,9 @@ Final grade: 94/110
 
 Specialization: Scientifico tradizionale — Final grade: 100/100
 
-Experience
-======
+---
+
+## Experience
 **Guest Researcher – Evaluation of pediatric visuospatial attention — IIT Unit for Visually Impaired People (U-VIP), Genoa (Nov 2025 – Jul 2026)**
 
 Master's thesis research on validation of a multimodal framework to assess pediatric visuospatial attention, overcoming limitations of the traditional paper-based Modified Bells Test.
@@ -50,8 +51,9 @@ Bachelor's degree internship analyzing and comparing two surgical devices: Harmo
 * Conducted structured interviews with head surgeons to collect qualitative feedback on device performance, handling, and adaptability across diverse intraoperative scenarios.
 * Collaborated within a two-person team to execute the project, successfully managing strict deadlines while interfacing effectively with multiple hospital departments and medical staff.
 
-Skills
-======
+---
+
+## Skills
 
 **Programming:** MATLAB, Python
 
@@ -59,20 +61,23 @@ Skills
 
 **Familiar with:** Unity 6, GIMP, SolidWorks, AVR Assembly, C, Meshlab
 
-Languages
-======
+---
+
+## Languages
 
 * Italian: Native
 * English: Europe Level B2 (Cambridge English Level 1 Certificate in ESOL International - First)
 
-Publications
-======
+---
+
+## Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Additional Information
-======
+---
+
+## Additional Information
 **Volunteering**
 
 * Humanitarian Mission — Casa di Carità Umbra, Leskoc, Kosovo (Aug 2026)
@@ -84,5 +89,6 @@ Additional Information
 
 Alpine skiing and weight training, with particular attention to biomechanics and correct exercise execution · Piano (playing since age 8; weekly lessons until 2020) · Science dissemination — regular reader of *National Geographic* and *Nature*
 
-Download
-======
+---
+
+## Download
